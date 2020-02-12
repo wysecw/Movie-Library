@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+    Document   : index.html
+    Package    : Project 4
+    Created on : Dec 7, 2018, 12:21:02 PM
+    Author     : Craig Wyse
+-->
+
+    <head>
+        <title>Movie Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            form{
+                background-color: black;
+                color: white;
+                height: 250px;
+                width: 500px;
+                margin: auto;
+                padding-top: 50px;
+                padding-bottom: 50px; 
+                box-sizing: border-box;
+
+            }
+            fieldset{
+                margin-left: 50px;
+                margin-right: 50px;
+                padding-top: 50px;
+                padding-bottom: 50px; 
+                box-sizing: border-box;
+
+            }
+            
+        </style>
+    </head>
+    
+        <div>
+            <form id="searchForm" method="post" action="movieList">
+                <fieldset> 
+                    <legend align="center">Movie Search</legend>
+                    <label for="keyword">Enter Keyword:</label>
+                    <input type="text" name="keyword" id="keyword">
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    
+
